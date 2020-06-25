@@ -24,8 +24,10 @@
 - use functions in render
 - pass functions as props
 - transfer functions with argument: props and bind
-`this.switchName.bind(this, 'MaoMao')`
-`this.switchName('MaoMao')`
+```
+this.switchName.bind(this, 'MaoMao')
+this.switchName('MaoMao')
+```
 
 ### Tips
 - try to use stateless components instead of stateful components
