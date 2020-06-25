@@ -23,11 +23,30 @@
 ### Events
 - use functions in render
 - pass functions as props
-- transfer functions with argument: props and bind
+- pass functions with argument: props and bind
 ```
 this.switchName.bind(this, 'MaoMao')
 this.switchName('MaoMao')
 ```
+- Click to change state
+- Input to change state
+
+### Two way binding
+- pass function to child component, 
+- call function in child component, (first bind)
+- run function in parent component,
+- change state in parent component,
+- props in child component change with state in parent component,
+- store/show the value of changed props. (second bind)
+
+### Style (not finished)
 
 ### Tips
 - try to use stateless components instead of stateful components
+
+
+
+
+
+
+## Reaching out to the web (shown in another project)
